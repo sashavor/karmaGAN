@@ -1,0 +1,6 @@
+python main.py \
+--phase test  \
+--which_direction AtoB \
+--dataset_dir=/home/sasha/Documents/MILAPostDoc/Data/Resized/test_resized/testA/ \
+--checkpoint_dir=/home/Data/log3/ \
+--test_dir=/home/sasha/Documents/MILAPostDoc/LuccioniCycleGAN/CycleGAN2/test_results

@@ -1,0 +1,7 @@
+python -m cyclegan.cyclegan \
+  --is_training=False \
+  --batch_size=2 \
+  --ckpt_dir_path=/home/Data/logs2/ \
+  --mode=gx \
+  --source_images_dir_path=/home/sasha/Documents/MILAPostDoc/Data/Resized/test_resized/testA/ \
+  --result_images_dir_path=/home/sasha/Documents/MILAPostDoc/Data/Resized/test_results2/

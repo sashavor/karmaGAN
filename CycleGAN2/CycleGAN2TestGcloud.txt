@@ -1,0 +1,16 @@
+
+gcloud ml-engine jobs submit training cyclegan_201901160857 \
+--module-name cyclegan2.main \
+--package-path cyclegan2 \
+--staging-bucket gs://karmacyclegan \
+--region asia-east1 \
+--runtime-version=1.4 \
+--python-version 2.7 \
+--scale-tier=BASIC_GPU \
+-- \
+--phase test \
+--which_direction AtoB \
+--test_dir=gs://karmacyclegan/test_resized/ \
+--dataset_dir=gs://karmacyclegan/test_resized/\
+--checkpoint_dir=gs://karmacyclegan/logs3/
+
