@@ -3,7 +3,7 @@
 
 For this proof of concept, I compared two GitHub repositories, both implementing CycleGANs in TensorFlow.
 
-###CycleGAN1 source: https://github.com/imironhead/ml_gans/tree/master/cyclegan###
+CycleGAN1 source: https://github.com/imironhead/ml_gans/tree/master/cyclegan###
 #Hyperparameters:
 batch-size=4 
 history-size=50 
