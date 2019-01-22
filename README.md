@@ -38,9 +38,9 @@ Results in /CycleGAN2/test_results2/
 
 ### Data:
 168 images for training:
-64 train A (before climate change)
-64 train B (after climate change)
-18 images for testing (images of Montreal)
+84 train A (before climate change)
+84 train B (after climate change)
+18 images for testing (of Montreal)
 
 ###Image sources:
 - https://www.dailymail.co.uk/news/article-3093474/Risen-ashes-Katrina-Photos-New-Orleans-ten-years-disastrous-hurricane-struck-city-rebuilt.html
