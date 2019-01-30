@@ -1,6 +1,6 @@
 					# KarmaGAN: Applying CycleGANs for Generating Images of Climate Change #
 							## by Sasha Luccioni ##
-
+						 	### WORK IN PROGRESS ###	
 For this proof of concept, I compared two GitHub repositories, both implementing CycleGANs in TensorFlow.
 
 CycleGAN1 source: https://github.com/imironhead/ml_gans/tree/master/cyclegan###
